@@ -426,7 +426,6 @@ public abstract class SongPlayer {
 							plugin.doSync(() -> Bukkit.getPluginManager().callEvent(event));
 							if (autoDestroy) {
 								destroy();
-								return;
 							}
 							continue;
 						}
